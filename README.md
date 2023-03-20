@@ -1,6 +1,6 @@
 # Biotech
 
-`Análise e desenvolimento de sistemas`
+`Análise e desenvolvimento de sistemas`
 
 `Projeto: Desenv. Aplicação Web`
 
