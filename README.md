@@ -7,6 +7,7 @@
 `1º Semestre`
 
 As ferramentas de software são extremamente importantes para os profissionais de saúde, especialmente para os analistas de laboratório. Isso ocorre porque essas ferramentas podem ajudar a reduzir a margem de erro humana ao analisar amostras biológicas. Com o auxílio de ferramentas de software, os resultados são mais precisos e consistentes, pois as ferramentas são programadas para seguir os protocolos de análise corretamente. Isso pode levar a uma melhoria significativa na qualidade dos resultados e na confiança do paciente nos resultados fornecidos pelos laboratórios.
+
 Além disso, as ferramentas de software são importantes para ajudar os analistas de laboratório a gerenciar grandes quantidades de dados e garantir a rastreabilidade de amostras. As ferramentas podem ajudar a manter registros precisos de amostras, resultados de testes e outros dados importantes do laboratório, o que é crítico para garantir que o processo de análise seja realizado corretamente. Com o uso de ferramentas de software, os laboratórios podem aumentar a eficiência do processo de análise e reduzir os custos associados à repetição de testes e erros. Em resumo, as ferramentas de software são fundamentais para garantir que os resultados de análises laboratoriais sejam precisos e confiáveis, além de permitir a gestão eficiente dos dados do laboratório.
 
 ## Integrantes
