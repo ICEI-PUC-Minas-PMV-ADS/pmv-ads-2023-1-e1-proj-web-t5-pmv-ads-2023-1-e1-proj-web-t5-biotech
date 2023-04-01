@@ -46,10 +46,7 @@ Um estudo conduzido pela Revista Brasileira de Análises Clínicas (2022) revelo
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Embora todas as pessoas que utilizam serviços de saúde possam se beneficiar deste projeto, ele é direcionado especialmente aos profissionais da área. Para identificar o público-alvo, foi realizada uma pesquisa de campo, que envolveu 26 profissionais da saúde, incluindo biomédicos, técnicos de laboratório, biólogos e médicos, que enfrentam uma rotina de trabalho desafiadora. A pesquisa revelou que 61,5% desses profissionais já liberaram resultados incorretos, enquanto 38,5% não cometeram nenhum erro. O objetivo é reduzir erros no processo pré-analítico e, assim, garantir a segurança e confiabilidade em todos os processos laboratoriais.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
