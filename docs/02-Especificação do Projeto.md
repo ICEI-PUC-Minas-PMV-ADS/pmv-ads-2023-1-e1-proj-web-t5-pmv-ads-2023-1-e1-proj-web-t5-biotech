@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Nesta fase do projeto, nosso objetivo é fornecer uma visão detalhada das personas que foram criadas com base nas informações coletadas a partir de uma extensa pesquisa realizada com 26 participantes. Essas personas foram criadas para representar os diferentes tipos de usuários que podem utilizar o produto final. Além disso, apresentaremos os requisitos essenciais que precisam ser cumpridos para garantir a continuidade do projeto. Esses requisitos são fundamentais para garantir que o produto final seja efetivo e atenda às necessidades dos usuários de forma satisfatória. Estamos ansiosos para compartilhar essa importante etapa do projeto com você e esperamos que as informações apresentadas sejam úteis para a próxima fase de desenvolvimento.
 
 ## Personas
 
@@ -14,7 +10,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 
 ## Histórias de Usuários
-
 
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -64,33 +59,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-05  |Gerar relatórios gerais ou detalhados |	MEDIO |
 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                                    |
+|-----|---------------------------------------------------------------------------| 
+|RE-01|	O projeto deverá ser entregue no final do semestre letivo                 |
+|RE-02|	O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
+|RE-03|	A equipe não pode subcontratar o desenvolvimento do trabalho              |
+|RE-04|	O projeto deverá ter seu código versionado utilizando git                 |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
