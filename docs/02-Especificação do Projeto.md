@@ -19,10 +19,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|-----------------------------------------|------------------------------------------------------|
-|Laura Ferreira      |Ferramentas de dupla checagem de exames  |Evitar que resultados sejam liberados de forma errada |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`        | QUERO/PRECISO ... `FUNCIONALIDADE`      |PARA ... `MOTIVO/VALOR`                 |
+|----------------------------|-----------------------------------------|-------------------------------------------------------------------------------------|
+|Laura Ferreira              |Ferramentas de dupla checagem de exames                           |Evitar que resultados sejam liberados de forma errada       |
+|Victor Almeida              |Mais tempo para receber orientações                               |Realizar a entrada de materiais de forma correta            |
+|Gabriela Isidoro            |Questionários digitados                                           |	Melhor interpretação da caligrafia                         |
+|Laura Ferreira     	        |Pastas individualizadas de pacientes com os documentos pertinentes|	Conferir todas as informações antes de liberar um resultado|
+|Victor Almeida              |Programas de treinamento       	                      |Vídeo aulas disponíveis em plataformas para aprender o fluxo da empresa |
+|Gabriela Isidoro            |	Conferência de emissão de etiquetas                              |	Não correr o risco de trocar as amostras de pacientes      |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
