@@ -9,22 +9,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 ![Sem título](https://user-images.githubusercontent.com/128416021/229384565-f69510b7-2377-4b8b-a0c1-679cbe3ae736.png)
+![dddd](https://user-images.githubusercontent.com/128416021/229384669-1b05d47f-0530-4837-8f96-f0f25c13bf22.png)
+![xsssss](https://user-images.githubusercontent.com/128416021/229384672-ebdfbc63-2e9c-4d10-ab86-15dfe5bfa051.png)
 
-
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
+
+![ddddddddssss](https://user-images.githubusercontent.com/128416021/229384750-b20d3fd0-8333-40a3-8656-00d51e9838ee.png)
+
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
