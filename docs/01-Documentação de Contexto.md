@@ -33,23 +33,15 @@ Os objetivos específicos deste projeto são:
 - Agilizar os processos
 - Facilitar o compartilhamento de informações e resultados para os profissionais assim como para os pacientes. 
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 
 Um estudo conduzido pela Revista Brasileira de Análises Clínicas (2022) revelou que as variáveis pré-analíticas exercem grande impacto sobre os exames laboratoriais e podem resultar em interpretações equivocadas. De acordo com a pesquisa, 1.274 testes laboratoriais foram rejeitados devido a erros na coleta de amostras biológicas, o que demandou a realização de novas coletas. A fase pré-analítica foi responsável pela maior taxa de pedidos de nova coleta (70,8%), seguida pela fase pós-analítica (27,79%) e, por fim, a fase analítica com uma pequena taxa (1,41%). Portanto, a implementação de medidas tecnológicas para corrigir falhas na fase pré-analítica pode melhorar significativamente a experiência do cliente e a segurança do colaborador.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
 
 ## Público-Alvo
 
 Embora todas as pessoas que utilizam serviços de saúde possam se beneficiar deste projeto, ele é direcionado especialmente aos profissionais da área. Para identificar o público-alvo, foi realizada uma pesquisa de campo, que envolveu 26 profissionais da saúde, incluindo biomédicos, técnicos de laboratório, biólogos e médicos, que enfrentam uma rotina de trabalho desafiadora. A pesquisa revelou que 61,5% desses profissionais já liberaram resultados incorretos, enquanto 38,5% não cometeram nenhum erro. O objetivo é reduzir erros no processo pré-analítico e, assim, garantir a segurança e confiabilidade em todos os processos laboratoriais.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
