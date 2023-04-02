@@ -37,28 +37,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Registro de pacientes; registrar informações de pacientes | MÉDIA | 
-|RF-02| Solicitação de exames; solicitar exames laboratoriais para pacientes e registrar as informações   | MÉDIA |
-|RF-03| Coleta de amostras; O sistema deve permitir o registro da coleta de amostras, incluindo o local da coleta e o horário da coleta | MÉDIA |
-|RF-04|	Análise de amostras; permitir o registro de informações sobre a análise de amostras, tipo de teste realizado, data da análise, resultados e observações| ALTO |
-|RF-05|	Armazenamento de resultados; O sistema deve ser capaz de armazenar os resultados dos testes e permitir o acesso aos resultados pelos profissionais de saúde autorizados| ALTO |
-|RF-06|Comunicação de resultados; permitir a comunicação e compartilhamento de resultados de exames aos pacientes e/ou profissionais autorizados| ALTO |
-|RF-07|Geração de relatórios; gerar de relatórios de exames para pacientes, médicos e outros profissionais de saúde| BAIXO |
-|RF-08|Segurança e privacidade; O sistema deve garantir a segurança e privacidade das informações do paciente e dos resultados de exames| ALTO |
-|RF-09|Integração; O sistema deve ser capaz de se integrar com outros sistemas de saúde| BAIXO |
-|RF-10|Tela de buscas; pesquisa por exames e termos específicos| ALTO |
-|RF-11|Digitalização; A plataforma permitirá salvar pedidos médicos scaneados|MÉDIA |
-|RF-12|Rastreabilidade; Alertas para atraso em alguma etapa nos exames| ALTO |
-
-|
-|
-|
-|
-|
-|
-|
-
-
+|RF-01 | Registro de pacientes; registrar informações de pacientes | MÉDIA | 
+|RF-02 | Solicitação de exames; solicitar exames laboratoriais para pacientes e registrar as informações   | MÉDIA |
+|RF-03 | Coleta de amostras; O sistema deve permitir o registro da coleta de amostras, incluindo o local da coleta e o horário da coleta | MÉDIA |
+|RF-04 |	Análise de amostras; permitir o registro de informações sobre a análise de amostras, tipo de teste realizado, data da análise, resultados e observações| ALTO |
+|RF-05 |	Armazenamento de resultados; O sistema deve ser capaz de armazenar os resultados dos testes e permitir o acesso aos resultados pelos profissionais de saúde autorizados| ALTO |
+|RF-06 |Comunicação de resultados; permitir a comunicação e compartilhamento de resultados de exames aos pacientes e/ou profissionais autorizados| ALTO |
+|RF-07 |Geração de relatórios; gerar de relatórios de exames para pacientes, médicos e outros profissionais de saúde| BAIXO |
+|RF-08 |Segurança e privacidade; O sistema deve garantir a segurança e privacidade das informações do paciente e dos resultados de exames| ALTO |
+|RF-09 |Integração; O sistema deve ser capaz de se integrar com outros sistemas de saúde| BAIXO |
+|RF-10 |Tela de buscas; pesquisa por exames e termos específicos| ALTO |
+|RF-11 |Digitalização; A plataforma permitirá salvar pedidos médicos scaneados|MÉDIA |
+|RF-12 |Rastreabilidade; Alertas para atraso em alguma etapa nos exames| ALTO |
 
 
 
