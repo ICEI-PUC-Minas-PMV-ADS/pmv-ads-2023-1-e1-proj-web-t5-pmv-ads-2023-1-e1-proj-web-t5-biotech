@@ -19,7 +19,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`        | QUERO/PRECISO ... `FUNCIONALIDADE`      |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO...                  | QUERO/PRECISO ...                       |PARA ...                                                                             |
 |----------------------------|-----------------------------------------|-------------------------------------------------------------------------------------|
 |Laura Ferreira              |Ferramentas de dupla checagem de exames                           |Evitar que resultados sejam liberados de forma errada       |
 |Victor Almeida              |Mais tempo para receber orientações                               |Realizar a entrada de materiais de forma correta            |
