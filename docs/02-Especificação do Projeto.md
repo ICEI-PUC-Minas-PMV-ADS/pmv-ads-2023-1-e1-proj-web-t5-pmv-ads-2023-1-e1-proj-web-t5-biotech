@@ -55,10 +55,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito                                                         |Prioridade                         |
+|-------|--------------------------------------------------------------------------------|-----------------------------------|
+|RF-01  |	Possibilitar a utilização das informações cadastrais em modo online e off-line |	ALTO |
+|RF-02	 |O sistema deve ser implementado na linguagem de marcação HTML e CSS e na linguagem de programação Javascript |	ALTO |
+|RF-03	 |Executável em navegadores Chrome,Firefox e Edge |	MEDIO |
+|RF-04	 |O sistema deverá ter recursos habilitados ou limitados de acordo com a necessidade do usuário |	BAIXO |
+|RF-05  |Gerar relatórios gerais ou detalhados |	MEDIO |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
