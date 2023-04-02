@@ -8,9 +8,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Laura Ferreira, tem 28 anos e é biotecnóloga, trabalha em uma NTO (núcleo técnico operacional), sua jornada de trabalho é 6x1 – 9h dia. Com a quantidade exacerbada de exames e poucos profissionais, Laura excede seu tempo de trabalho diariamente para conseguir liberar os resultados dentro do prazo. É responsável por realizar análises laboratoriais e precisa garantir que os resultados das análises sejam precisos e confiáveis.
-Frustrações: poucos funcionários, carga de trabalho excessiva.
-Motivações: bem estar do paciente.
+![Sem título](https://user-images.githubusercontent.com/128416021/229384565-f69510b7-2377-4b8b-a0c1-679cbe3ae736.png)
+
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
