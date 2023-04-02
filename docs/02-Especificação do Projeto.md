@@ -28,14 +28,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Victor Almeida              |Programas de treinamento       	                      |Vídeo aulas disponíveis em plataformas para aprender o fluxo da empresa |
 |Gabriela Isidoro            |	Conferência de emissão de etiquetas                              |	Não correr o risco de trocar as amostras de pacientes      |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -45,8 +37,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| Registro de pacientes; registrar informações de pacientes | MÉDIA | 
+|RF-02| Solicitação de exames; solicitar exames laboratoriais para pacientes e registrar as informações   | MÉDIA |
+|RF-03| Coleta de amostras; O sistema deve permitir o registro da coleta de amostras, incluindo o local da coleta e o horário da coleta | MÉDIA |
+|RF-04|	Análise de amostras; permitir o registro de informações sobre a análise de amostras, tipo de teste realizado, data da análise, resultados e observações| ALTO |
+|RF-05|	Armazenamento de resultados; O sistema deve ser capaz de armazenar os resultados dos testes e permitir o acesso aos resultados pelos profissionais de saúde autorizados| ALTO |
+|RF-06|Comunicação de resultados; permitir a comunicação e compartilhamento de resultados de exames aos pacientes e/ou profissionais autorizados| ALTO |
+|RF-07|Geração de relatórios; gerar de relatórios de exames para pacientes, médicos e outros profissionais de saúde| BAIXO |
+|RF-08|Segurança e privacidade; O sistema deve garantir a segurança e privacidade das informações do paciente e dos resultados de exames| ALTO |
+|RF-09|Integração; O sistema deve ser capaz de se integrar com outros sistemas de saúde| BAIXO |
+|RF-10|Tela de buscas; pesquisa por exames e termos específicos| ALTO |
+|RF-11|Digitalização; A plataforma permitirá salvar pedidos médicos scaneados|MÉDIA |
+|RF-12|Rastreabilidade; Alertas para atraso em alguma etapa nos exames| ALTO |
+
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
 
 
 ### Requisitos não Funcionais
