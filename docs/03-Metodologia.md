@@ -15,8 +15,6 @@ A metodologia inclui as especificações de ferramentas empregadas pela equipe, 
 | Interface e Wireframe  | Figma  | https://www.figma.com/file/EuysoMet4EAeCOdDEWIcrF/projeto-design-original?node-id=0%3A1&t=LjV30xY5GoncovSx-1 |
 | Gerenciamento  | GitHub Projects  | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/345 |
 
-Gerenciamento do Projeto
-
 
 A utilização de metodologias ágeis é adota pela equipe, tendo o Scrum sido escolhido como a fundação para definir o processo de desenvolvimento.
 A equipe está distribuída da seguinte maneira:
