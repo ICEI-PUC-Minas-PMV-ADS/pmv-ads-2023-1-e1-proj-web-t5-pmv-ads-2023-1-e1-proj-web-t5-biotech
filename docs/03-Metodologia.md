@@ -32,9 +32,13 @@ A equipe está distribuída da seguinte maneira:
  		○ Paulo Isidoro de Oliveira
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub.
+
 ● Backlog: As tarefas a serem realizadas são recebidas e adicionadas ao Product Backlog, que também deve ser atualizado com todas as atividades identificadas durante o decorrer do projeto.
+
 ● To Do: O Sprint Backlog é composto por essa lista, que corresponde ao Sprint atual em que estamos envolvidos.
+
 ● Doing: Assim que uma tarefa for iniciada, ela é transferida para esta seção.
+
 ● Done: Esta lista contém as tarefas que foram testadas e validadas pelo controle de qualidade, e estão aptas para serem entregues. Elas não requerem mais edições ou revisões, pois estão prontas a serem executadas.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/345 e é apresentado por:
