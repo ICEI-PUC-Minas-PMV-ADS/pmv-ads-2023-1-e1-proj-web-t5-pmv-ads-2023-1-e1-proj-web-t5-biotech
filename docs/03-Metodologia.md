@@ -5,7 +5,7 @@
 
 A metodologia inclui as especificações de ferramentas empregadas pela equipe, tanto para manter os códigos e outros elementos do projeto, como para gerir o time na realização das atividades.
 
-## Controle de Versão
+## Gerenciamento do Projeto
 
 
 | Ambiente      | Plataforma | Acesso |
@@ -42,4 +42,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ● Done: Esta lista contém as tarefas que foram testadas e validadas pelo controle de qualidade, e estão aptas para serem entregues. Elas não requerem mais edições ou revisões, pois estão prontas a serem executadas.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/345 e é apresentado por:
+
+
+![Sem título](https://user-images.githubusercontent.com/129342613/233685135-7149e911-5037-4ec6-8778-05246ade5780.png)
 
