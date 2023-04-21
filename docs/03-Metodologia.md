@@ -8,12 +8,12 @@ A metodologia inclui as especificações de ferramentas empregadas pela equipe, 
 ## Controle de Versão
 
 
-| First Header  | Second Header | Third Header |
+| Ambiente      | Plataforma | Acesso |
 | ------------- | ------------- | ------------ |
-| Content Cell  | Content Cell  | Content Cell |
-| Content Cell  | Content Cell  | Content Cell |
-| Content Cell  | Content Cell  | Content Cell |
-| Content Cell  | Content Cell  | Content Cell |
+| Repositório  | GitHub  | [projeto PUCminas ADS 2023 turma 5 Biotech](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech) |
+| Documentação  | Google Drive  | https://docs.google.com/document/d/1mbh4LiNFJqNtAU316qzU-szJ52-C2Fpw/edit?usp=share_link&ouid=112464003462368592369&rtpof=true&sd=true |
+| Interface e Wireframe  | Figma  | https://www.figma.com/file/EuysoMet4EAeCOdDEWIcrF/projeto-design-original?node-id=0%3A1&t=LjV30xY5GoncovSx-1 |
+| Gerenciamento  | GitHub Projects  | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/345 |
 
 ### Processo
 
