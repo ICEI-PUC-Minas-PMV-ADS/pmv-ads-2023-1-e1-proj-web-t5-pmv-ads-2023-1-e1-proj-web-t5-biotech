@@ -15,32 +15,27 @@ A metodologia inclui as especificações de ferramentas empregadas pela equipe, 
 | Interface e Wireframe  | Figma  | https://www.figma.com/file/EuysoMet4EAeCOdDEWIcrF/projeto-design-original?node-id=0%3A1&t=LjV30xY5GoncovSx-1 |
 | Gerenciamento  | GitHub Projects  | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/345 |
 
-### Processo
+Gerenciamento do Projeto
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
-### Ferramentas
+A utilização de metodologias ágeis é adota pela equipe, tendo o Scrum sido escolhido como a fundação para definir o processo de desenvolvimento.
+A equipe está distribuída da seguinte maneira:
 
-As ferramentas empregadas no projeto são:
+ 	● Scrum Master: Simone Alves Nogueira
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+ 	● Product Owner: ICEI-PUC-Minas-PMV-ADS
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+ 	● Equipe de Desenvolvimento
+ 		○ Leander de Almeida da Silva Santos
+ 		○ Felipe de Araújo Feliciano
+ 		○ Ana Clara de Oliveira Ferreira
+ 		○ Paulo Isidoro de Oliveira
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub.
+● Backlog: As tarefas a serem realizadas são recebidas e adicionadas ao Product Backlog, que também deve ser atualizado com todas as atividades identificadas durante o decorrer do projeto.
+● To Do: O Sprint Backlog é composto por essa lista, que corresponde ao Sprint atual em que estamos envolvidos.
+● Doing: Assim que uma tarefa for iniciada, ela é transferida para esta seção.
+● Done: Esta lista contém as tarefas que foram testadas e validadas pelo controle de qualidade, e estão aptas para serem entregues. Elas não requerem mais edições ou revisões, pois estão prontas a serem executadas.
+
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/345 e é apresentado por:
+
