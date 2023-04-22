@@ -48,6 +48,7 @@ A tela inicial e seus elementos compõe a apresentação do sistema Biotech. Seu
 ● Uma imagem que se relaciona com o conteúdo do website ou simplesmente uma imagem decorativa, ela pode ocupar a maior parte da tela.
 ● O componente botão de login quando clicado, ele leva o usuário a uma página de login onde ele pode inserir suas credenciais de acesso.
 
+![image](https://user-images.githubusercontent.com/129342613/233806202-76b70343-1fe0-4a9f-9aff-ad904d59e11e.png)
 
 
  
@@ -67,7 +68,8 @@ Tela de login
 O logo do website é exibido no topo da tela e pode ser clicado para levar o usuário de volta à página inicial. Abaixo dele, encontram-se os campos de usuário e senha, onde o usuário insere as informações necessárias para fazer login.
 O botão de entrar é colocado abaixo dos campos de usuário e senha e é usado para enviar as informações e fazer login. O link para cadastrar é exibido abaixo do botão de entrar e leva o usuário a uma página onde ele pode criar uma nova conta.
 
- 
+ ![image](https://user-images.githubusercontent.com/129342613/233806205-b1affa95-cdb0-4278-bce1-d75c0b7b59c1.png)
+
 
 
 
@@ -88,6 +90,7 @@ Os campos relevantes que o usuário deve preencher para criar uma conta no siste
 O botão de cadastrar é colocado abaixo dos campos de informações e é usado para enviar as informações de cadastro para o sistema.
 
  
+![image](https://user-images.githubusercontent.com/129342613/233806218-06fcc5e1-ec3a-4920-b8a7-60439eba8f19.png)
 
 
 
@@ -110,6 +113,7 @@ O logo do sistema é exibido no topo da tela e pode ser clicado para levar o usu
 ● Botão de Exames Pendentes: usado para acessar e visualizar os registros pendentes ou buscar por informações específicas.
 
  
+![image](https://user-images.githubusercontent.com/129342613/233806226-a682492c-b4bd-4cff-929f-319e81b2407d.png)
 
 
 
@@ -130,7 +134,8 @@ Os campos de exames são onde as informações laboratoriais serão inseridas. E
 O botão de cadastrar é colocado abaixo dos campos de informações e é usado para enviar as informações do paciente e dos exames para o sistema. 
 
 
- 
+ ![image](https://user-images.githubusercontent.com/129342613/233806233-96f1f183-17fd-49e2-a46c-9a7aaa25b8d0.png)
+
 
 
 
@@ -148,6 +153,7 @@ Os resultados da digitalização são exibidos na tela após a digitalização e
 
  
 
+![image](https://user-images.githubusercontent.com/129342613/233806240-59c4f685-a48f-415a-a5d2-b66cd0a44cb1.png)
 
 
 
@@ -170,6 +176,7 @@ O campo de verificação dupla dos resultados é usado para confirmar a precisã
  
 
 
+![image](https://user-images.githubusercontent.com/129342613/233806248-4d1d3697-20e9-475e-af27-c0631ef00b8d.png)
 
 
 
@@ -192,6 +199,7 @@ A tela apresenta os resultados das etapas de verificação, também apresenta do
 
  
 
+![image](https://user-images.githubusercontent.com/129342613/233806256-1106e8e0-4798-4d41-9d0a-7364a44692ad.png)
 
 
 
@@ -216,6 +224,7 @@ Abaixo da mensagem de erro, há um botão de ação para repetir a verificação
  
 
 
+![image](https://user-images.githubusercontent.com/129342613/233806264-081a6cdf-0fdf-41e4-9c83-0e62231c315a.png)
 
 
 
@@ -236,7 +245,8 @@ Tela Recoleta
 A tela apresenta as informações do pedido, incluindo o nome do profissional de saúde e a data do pedido. Também há uma lista dos exames que serão refeitos.
 Ao lado da lista de exames, há um botão de ação para confirmar o pedido de coleta. Ao clicar no botão, o sistema pode enviar uma notificação para a equipe de coleta de amostras para que possam coletar o material contendo os dados do profissional de saúde e realizar os exames solicitados.
 
- 
+ ![image](https://user-images.githubusercontent.com/129342613/233806269-e4b06d61-8efd-4d1c-a4a1-c69db3a1af8c.png)
+
 
 
 
@@ -259,7 +269,8 @@ Tela exames pendentes
 A tela apresenta uma lista dos exames pendentes, separados por paciente. Cada paciente tem uma lista de exames pendentes, numerados em ordem.
 Abaixo de cada paciente e seus exames pendentes, o sistema pode enviar uma notificação quanto à necessidade de resolver as pendências.
 
- 
+ ![image](https://user-images.githubusercontent.com/129342613/233806275-e84e53e4-5623-463d-ab93-255e0cc87744.png)
+
 
 
 
