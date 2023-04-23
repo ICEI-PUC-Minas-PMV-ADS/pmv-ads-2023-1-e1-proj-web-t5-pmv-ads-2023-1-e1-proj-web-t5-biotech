@@ -42,5 +42,6 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/345 e é apresentado por:
 
 
-![Sem título](https://user-images.githubusercontent.com/129342613/233685135-7149e911-5037-4ec6-8778-05246ade5780.png)
+![Sem título](https://user-images.githubusercontent.com/129342613/233867070-ba763562-038b-438b-a041-b8af14c1edd7.png)
+
 
