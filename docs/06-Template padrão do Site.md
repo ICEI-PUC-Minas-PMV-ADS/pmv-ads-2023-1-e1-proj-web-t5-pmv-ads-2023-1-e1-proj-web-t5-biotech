@@ -12,6 +12,8 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 > > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
 
 
+
+
 > ## Template Padrão do Site
 > <img width="1440" alt="Captura de Tela 2023-05-14 às 21 35 45" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/116657748/07106785-3e4e-432d-a713-3edb1fefd231">
 
