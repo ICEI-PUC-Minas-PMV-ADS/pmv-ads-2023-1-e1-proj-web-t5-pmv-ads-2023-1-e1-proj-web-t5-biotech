@@ -2,6 +2,7 @@
 
 + ### Tela de Digitalização dos Pedidos
 + ### Tela de Verificação em Duas Etapas
++ ### Tela de Cadastro de Pacientes
 + ### Tela de Recoleta
 + ### Tela de Confirmação de Recoleta
 + ### Tela de Visualização de Pacientes e/ou Exames Cadastrados
@@ -29,6 +30,19 @@ A tela de verificação de duas etapas é uma ferramenta essencial para garantir
 A página contempla as seguintes funcionalidades: <br>
 
 RF-04	Análise de amostras; permitir o registro de informações sobre a análise de amostras, tipo de teste realizado, data da análise, resultados e observações
+
+## Tela de Cadastro de Pacientes
+
+![cadastro-pacientes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/a7262158-10c8-4214-b6c3-dac3ca4c6a44)
+
+
+O registro de pacientes é um levantamento de todas as informações relevantes sobre a saúde dele, ou seja, são dados que vão contribuir para uma melhor análise do quadro clínico do indivíduo. ⁣
+ Neste registro devem estar discriminados informações como: dados sobre a pessoa, histórico de doenças, consultas prévias, presença de doenças familiares etc. ⁣
+ O histórico do paciente será usado como guia pelo médico durante toda a assistência prestada. Por isso, é muito importante que o documento seja o mais minucioso possível, de forma a oferecer um maior embasamento para que seja sugerido um tratamento assertivo.
+ 
+ A página contempla as seguintes funcionalidades: <br>
+
+RF-01	Registro de pacientes; registrar informações de pacientes
 
 ## Tela de Recoleta
 
