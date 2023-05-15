@@ -3,7 +3,7 @@
 + ### Tela de Digitalização dos Pedidos
 + ### Tela de Verificação em Duas Etapas
 + ### Tela de Recoleta
-+ ### Tela de confirmação de Recoleta
++ ### Tela de Confirmação de Recoleta
 + ### Tela de Visualização de Pacientes e/ou Exames Cadastrados
 + ### Tela de Visualização de Documentação
 
@@ -41,7 +41,7 @@ A página contempla as seguintes funcionalidades: <br>
 
 RF-03	Coleta de amostras; O sistema deve permitir o registro da coleta de amostras, incluindo o local da coleta e o horário da coleta
 
-## Tela de confirmação de Recoleta
+## Tela de Confirmação de Recoleta
 
 ![confir-recoleta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/2bbac9e0-d7e1-47eb-985c-9dda8f384a72)
 
