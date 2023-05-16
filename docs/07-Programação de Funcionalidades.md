@@ -13,7 +13,7 @@
 
 ![digitalização](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/e279e172-fbc1-476d-9c3b-1c75dab17678)
 
-
+Leander de Almeida Silva Santos
 Nessa etapa, o profissional insere minuciosamente as informações do paciente, e registra os detalhes específicos do exame realizado. Essa etapa garante a precisão e a integridade dos dados, permitindo um diagnóstico mais acurado e um tratamento adequado. Além disso, o registro digital dos exames facilita o acesso rápido às informações, agilizando a tomada de decisões clínicas e proporcionando uma melhor qualidade de atendimento aos pacientes.
 
 A página contempla as seguintes funcionalidades: <br>
@@ -24,7 +24,7 @@ RF-04	Análise de amostras; permitir o registro de informações sobre a anális
 
 ![verficaduasetapas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/970a5300-fd6c-4afd-a47b-cce41c062d2e)
 
-
+Leander de Almeida Silva Santos
 A tela de verificação de duas etapas é uma ferramenta essencial para garantir a segurança dos exames médicos. Nessa tela, o profissional tem a opção de selecionar o exame desejado e, em seguida, preencher o nome e CPF do paciente. Após essa etapa, dois profissionais diferentes são responsáveis por realizar a validação em duas etapas, assegurando a precisão e a confiabilidade dos dados inseridos. Essa abordagem reforça a proteção dos dados pessoais e contribui para a integridade dos resultados médicos.
 
 A página contempla as seguintes funcionalidades: <br>
