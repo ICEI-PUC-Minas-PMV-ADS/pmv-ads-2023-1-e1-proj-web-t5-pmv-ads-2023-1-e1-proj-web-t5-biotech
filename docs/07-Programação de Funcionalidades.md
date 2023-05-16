@@ -63,9 +63,10 @@ RF-03	Coleta de amostras; O sistema deve permitir o registro da coleta de amostr
 
 ## Tela de Confirmação de Recoleta
 
-Felipe de Araujo Feliciano
 
 ![confir-recoleta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/2bbac9e0-d7e1-47eb-985c-9dda8f384a72)
+
+Felipe de Araujo Feliciano
 
 Tela responsável por exibir as informações da solicitação anterior com opção de confirmar, assim registrando a solicitação e voltar para reeviar as informações da solicitação. 
 A página contempla as seguintes funcionalidades: <br>
