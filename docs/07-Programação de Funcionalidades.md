@@ -3,8 +3,8 @@
 + ### Tela de Digitalização dos Pedidos
 + ### Tela de Verificação em Duas Etapas
 + ### Tela de Cadastro de Pacientes
-+ ### Tela de Recoleta
-+ ### Tela de Confirmação de Recoleta
++ ### Tela de Recoleta - Felipe de Araujo Feliciano
++ ### Tela de Confirmação de Recoleta - Felipe de Araujo Feliciano
 + ### Tela de Visualização de Pacientes e/ou Exames Cadastrados
 + ### Tela de Visualização de Documentação
 
