@@ -52,6 +52,8 @@ RF-01	Registro de pacientes; registrar informações de pacientes
 
 ![recoleta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/24cca620-eabe-4f48-b093-a7f199538b5d)
 
+Felipe de Araujo Feliciano
+
 A tela de recoleta é uma etapa fundamental no processo de exames médicos, assegurando a qualidade e precisão dos resultados. Nessa tela, o profissional tem a possibilidade de selecionar novamente o exame desejado, permitindo uma revisão cuidadosa das informações anteriores. Essa funcionalidade garante uma abordagem minuciosa, assegurando que os resultados finais reflitam com precisão a condição de saúde do paciente. Ao proporcionar essa oportunidade de revisão, a tela de recoleta reforça a confiabilidade dos dados e contribui para uma tomada de decisão clínica mais precisa e efetiva. A tela de registro de solicitação de re-coleta de exame exibi os campos para inserção dos dados do profissional, paciente, tipo de exame, data e anexo do documento da coleta anterior.
 Redireciona para tela de confirmação de re-coleta ao click em solicitar.
 
@@ -60,6 +62,8 @@ A página contempla as seguintes funcionalidades: <br>
 RF-03	Coleta de amostras; O sistema deve permitir o registro da coleta de amostras, incluindo o local da coleta e o horário da coleta
 
 ## Tela de Confirmação de Recoleta
+
+Felipe de Araujo Feliciano
 
 ![confir-recoleta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/2bbac9e0-d7e1-47eb-985c-9dda8f384a72)
 
