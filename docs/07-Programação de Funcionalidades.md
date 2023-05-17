@@ -77,6 +77,7 @@ RF-03	Coleta de amostras; O sistema deve permitir o registro da coleta de amostr
 
 ![tela-view](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/f132faf6-91be-46d0-afbc-7aadccb1ff09)
 
+Paulo Isidoro de Oliveira
 
 Dentro da tela de busca por pacientes, é possivel o administrador buscar por pacientes utilizando dados pessoais específicos ou por exames buscando pelo
 nome do exame, atraves de um click em detalhes o usuário é redirecionado a tela de documentação que gera o documento correspondente com os dados do usuário já cadastrados anteriormente.
@@ -88,8 +89,9 @@ RF-06	Comunicação de resultados; permitir a comunicação e compartilhamento d
 
 ![tela-documento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/7b03a7a0-a5cd-4adc-bd0f-1212bf80a668)
 
-Tela responsável por exibir um preview da documentação do paciente com os dados já cadastrados nas telas anteriores.
+Paulo Isidoro de Oliveira
 
+Tela responsável por exibir um preview da documentação do paciente com os dados já cadastrados nas telas anteriores.
 
 A página contempla as seguintes funcionalidades: <br>
 
