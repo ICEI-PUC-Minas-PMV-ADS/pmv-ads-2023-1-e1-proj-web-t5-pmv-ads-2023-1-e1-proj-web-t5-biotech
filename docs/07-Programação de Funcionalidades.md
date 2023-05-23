@@ -39,6 +39,7 @@ RF-04	Análise de amostras; permitir o registro de informações sobre a anális
 
 ![cadastro-pacientes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/a7262158-10c8-4214-b6c3-dac3ca4c6a44)
 
+Ana Clara de Oliveira Ferreira
 
 O registro de pacientes é um levantamento de todas as informações relevantes sobre a saúde dele, ou seja, são dados que vão contribuir para uma melhor análise do quadro clínico do indivíduo. ⁣
  Neste registro devem estar discriminados informações como: dados sobre a pessoa, histórico de doenças, consultas prévias, presença de doenças familiares etc. ⁣
