@@ -11,7 +11,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 
-| Registro de Teste| [CT-01](08-Resgistro%20de%20Testes%20de%20Software.md) - Cadastro de Paciente| 
+| Registro de Teste| [CT-01](08-Plano%20de%20Testes%20de%20Software.md) - Cadastro de Paciente| 
 |--------------|-----------------------|
 |Objetivo de teste|Verificar se o sistema está permitindo o cadastro de pacientes.
 ![Captura de tela 2023-06-11 191053](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/cd851f45-9e73-4190-bc54-5aedf835f291)|
