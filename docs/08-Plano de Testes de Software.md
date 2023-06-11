@@ -20,7 +20,7 @@ Comente sobre as ferramentas de testes utilizadas.
 
 |Caso de Teste        | [CT-01](09-Registro%20de%20Testes%20de%20Software.md) O site deve permitir o cadastro de Pacientes e guardar as suas informações|
 |---------------------|--------------------------------------------------------------------|
-|	Requisito Associado | [RF-01] Registro de pacientes; registrar informações de pacientes. <br> [RF-15]  O site deve permitir ao aluno, ao criar o grupo, a sugerir horários de reunião. |
+|	Requisito Associado | [RF-01] Registro de pacientes; registrar informações de pacientes. |
 | Objetivo do Teste 	 | Verificar se o sistema está permitindo o cadastro de pacientes. |
 | Passos 	            | - Acessar através da página inicial no botão cadastrar paciente ; <br> - Preencher os campos pertinentes; <br> - Caso necessario inserir algum comentario sobre condições de saude. <br> - Clicar no botão "Cadastrar Paciente". |
 | Critério de Êxito   | O usuario deve conseguir cadastrar o paciente e o mesmo será exibido na tela de preview, como  também a inserção dos dados que serão armazenados (utilizando JSON Server).|
