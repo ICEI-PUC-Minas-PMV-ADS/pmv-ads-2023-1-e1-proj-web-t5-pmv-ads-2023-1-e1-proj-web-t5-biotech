@@ -10,3 +10,40 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
+| Registro de Teste| CT-01 - Cadastro de Paciente| 
+|--------------|-----------------------|
+|Objetivo de teste|Verificar se o sistema está permitindo o cadastro de pacientes.
+![Captura de tela 2023-06-11 191053](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/cd851f45-9e73-4190-bc54-5aedf835f291)|
+![Captura de tela 2023-06-11 191138](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/6a74b0dd-bdbb-42eb-b247-86dda3e0a2e2)
+
+                                      {
+                                        "nome": "Leandro",
+                                        "sobrenome": "Azevedo",
+                                        "genero": "masculino",
+                                        "idade": "24",
+                                        "dataNascimento": "1999-02-02",
+                                        "endereco": "Rua Gamões Cunha",
+                                        "cep": "35620-055",
+                                        "convenio": "não tenho",
+                                        "email": "leandro@gmail.com",
+                                        "diabetes": "sim",
+                                        "medicamentos": "Nenhum",
+                                        "motivoConsulta": "rotina",
+                                        "alergias": "Não",
+                                        "dataCadastro": "2023-06-11",
+                                        "doencaImportante": "não",
+                                        "fuma": "não",
+                                        "historicoFamiliar": "não",
+                                        "cpf": "111.555.444-23",
+                                        "id": 5
+                                      }
+| Critério de êxito              | • O teste teve êxito        |
+|------------------------------- | ---------------------------|
+| Retorno requisição POST com JSON | • O teste teve êxito  |                                         
+                                     
+  
+
+
+
+
