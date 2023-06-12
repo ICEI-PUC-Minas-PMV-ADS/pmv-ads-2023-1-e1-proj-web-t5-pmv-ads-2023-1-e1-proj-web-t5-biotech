@@ -47,8 +47,8 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 | Registro de Teste| [CT-02](08-Plano%20de%20Testes%20de%20Software.md) - Validação em Duas Etapas| 
 |--------------|-----------------------|
 |Objetivo de teste|Verificar se o sistema está permitindo a verificação em duas etapas.
-![Captura de tela 2023-06-11 191053](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/cd851f45-9e73-4190-bc54-5aedf835f291)|
-![Captura de tela 2023-06-11 191138](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/111186037/6a74b0dd-bdbb-42eb-b247-86dda3e0a2e2)
+![Captura da Web_7-6-2023_22351_127 0 0 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/131215693/f25f7ad7-344f-4afe-8133-f43d75136193)
+
 
                                       {
                                         "escolha um exame": "Covid"
