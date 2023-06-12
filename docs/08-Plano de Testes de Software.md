@@ -30,5 +30,5 @@ Comente sobre as ferramentas de testes utilizadas.
 |---------------------|--------------------------------------------------------------------|
 |	Requisito Associado | [RF-04]  Análise de amostras; permitir o registro de informações sobre a análise de amostras, tipo de teste realizado, data da análise, resultados e observações. |
 | Objetivo do Teste 	 | Verificar se o sistema está permitindo a validação em duas etapas pelos dois profissionais do exame selecionado. |
-| Passos 	            | - Acessar através da página depois de digitalizar pedidos ; <br> - Preencher os campos obrigatórios corretamente; <br> -  -Clicar no botão "Enviar". |
+| Passos 	            | - Acessar através da página depois de digitalizar pedidos ; <br> - Preencher os campos obrigatórios corretamente; <br> -  Clicar no botão "Enviar". |
 | Critério de Êxito   | A verificação do exame selecionado pelo usuario deve estar em conformidade ao dar positivo pelos dois profissionais e o mesmo será exibido como exame em conformidade ao clicar em enviar na tela de preview.|
