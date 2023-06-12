@@ -60,6 +60,6 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
                                       }
 | Critério de êxito              | • O teste teve êxito        |
 |------------------------------- | ---------------------------|
-| Retorno requisição POST com JSON | • O teste teve êxito  |       
+| Retorno requisição POST | • O teste teve êxito  |       
 
 
