@@ -26,6 +26,8 @@ Comente sobre as ferramentas de testes utilizadas.
 | Critério de Êxito   | O usuario deve conseguir cadastrar o paciente e o mesmo será exibido na tela de preview, como  também a inserção dos dados que serão armazenados (utilizando JSON Server).|
 
 
+|Caso de Teste        | [CT-02] O site deve permitir a verificação em duas etapas|
+|---------------------|--------------------------------------------------------------------|
 |	Requisito Associado | [RF-04]  Análise de amostras; permitir o registro de informações sobre a análise de amostras, tipo de teste realizado, data da análise, resultados e observações. |
 | Objetivo do Teste 	 | Verificar se o sistema está permitindo a validação em duas etapas pelos dois profissionais do exame selecionado. |
 | Passos 	            | - Acessar através da página depois de digitalizar prdidos ; <br> - Preencher os campos obrigatórios corretamente; <br> -  - Clicar no botão "Enviar". |
