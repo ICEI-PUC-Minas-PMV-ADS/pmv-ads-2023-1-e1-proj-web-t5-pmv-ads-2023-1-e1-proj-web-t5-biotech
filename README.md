@@ -25,7 +25,35 @@ Além disso, as ferramentas de software são importantes para ajudar os analista
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Siga as instruções abaixo para preparar o ambiente e iniciar o servidor JSON.
+
+Pré-requisitos<br>
+Node.js: https://nodejs.org (versão recomendada: 12.x ou superior)
+Passos<br>
+Faça o clone deste repositório para o seu ambiente local.
+
+Navegue até o diretório raiz do projeto.
+
+No terminal dentro da raiz do projeto execute o comando abaixo para instalar as dependências necessárias:
+
+
+`$npm install`
+
+Esse comando irá instalar todas as dependências listadas no arquivo package.json.
+
+Após a conclusão da instalação, execute o comando abaixo para iniciar o servidor JSON:
+
+`$npm start`
+
+Isso irá iniciar o servidor JSON e deixá-lo disponível em http://localhost:3000.
+
+Certifique-se de ter o Node.js instalado corretamente antes de executar os comandos acima.
+
+Página de Login <br>
+A página de login é a index.html localizada na raiz do projeto. Utilize as seguintes credenciais para fazer login:
+
+Login: admin<br>
+Senha: admin<br>
 
 # Documentação
 
