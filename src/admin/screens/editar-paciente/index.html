@@ -5,27 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/template.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/cadastros/cadastro-paciente.css">
 </head>
 
 <body>
-   <header class="cabecalho">
-       <div class="cabecalho__logo">
-           <img src="54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia (4).png" alt="logo" height="80">
-       </div>
-       <form class="cabecalho__pesquisar">
-           <input type="text" name="pesquisa" placeholder="Digite aqui sua pesquisa">
-       </form>
-       <ul class="cabecalho__list">
-           <li class="cabecalho__item data"></li>
-           <li class="cabecalho__item">
-               <div class="image__profile">
-                   <img src="user.png" alt="" height="35px">
-               </div>
-           </li>
-           <li class="cabecalho__item">SAIR</li>
-       </ul>
-   </header>
+    <header class="cabecalho"> 
+        <div class="cabecalho__logo"> 
+          <a href="../Pagina%20inicial/index.html">
+            <img src="../../assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image%20-%20co%CC%81pia.png" alt="logo" height="80">
+          </a>
+        </div>
+        <form class="cabecalho__pesquisar">
+            <input type="text" name="pesquisa" placeholder="Digite aqui sua pesquisa">
+        </form>
+        <ul class="cabecalho__list">
+            <li class="cabecalho__item data"></li>
+            <li class="cabecalho__item">
+             <div class="container-profile">
+                <div class="image__profile">
+                    <img src="../../assets/imgs/user.png" alt="" height="35px">
+                </div>
+                
+             </div>
+             </div>        
+            </li>
+            <a href="../../../../index.html">SAIR</a>
+        </ul>
+    </header>
 
    <main class="main__form">
     <title>Editar Paciente</title>
@@ -157,17 +164,15 @@
    </main>
    
    <footer>
-       <div class="cabecalho__logo">
-           <img src="54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia.png" alt="" height="80px">
-       </div>
-       <div>
-           <ul>
-               <li><a href="#" class="link__footer">Contato</a></li>
-               <li><a href="#" class="link__footer">Quem somos</a></li>
-               <li><a href="#" class="link__footer">PUC MINAS - ADS</a></li>
-           </ul>
-       </div>
-   </footer>
+    <div class="cabecalho__logo">
+      <img src="../../assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia.png" alt="" height="80px">
+    </div>
+    <ul>
+      <li><a href="#" class="link__footer">Contato</a></li>
+      <li><a href="#" class="link__footer">Quem somos</a></li>
+      <li><a href="#" class="link__footer">PUC MINAS - ADS</a></li>
+    </ul>
+  </footer>
 
    <div id="result"></div>
    <script type='module' src="../../controller/editarPaciente-controller.js"></script>

@@ -49,7 +49,7 @@ async function cadastroPaciente(paciente) {
         console.log('Exame cadastrado com sucesso:', exameObj);
         return pacienteObj;
       } else {
-        throw new Error('Erro ao cadastrar exame');
+        throw new Error('Erro ao iniciar o cadastro de exame');
       }
     } else {
       throw new Error('Erro ao cadastrar paciente');

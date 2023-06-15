@@ -58,6 +58,10 @@
     {
       "id": 4,
       "pacienteId": 4
+    },
+    {
+      "id": 5,
+      "pacienteId": 5
     }
   ],
   "pacientes": [
@@ -140,7 +144,14 @@
       "fuma": "sim",
       "historicoFamiliar": "não",
       "cpf": "321.123.235-55",
-      "id": 3
+      "id": 3,
+      "Exame": [
+        {
+          "exame": "Exame de Urina",
+          "data": "2023-06-12",
+          "status": "ativo"
+        }
+      ]
     },
     {
       "nome": "Maria Alves",
@@ -162,6 +173,35 @@
       "historicoFamiliar": "não",
       "cpf": "111.111.222-55",
       "id": 4
+    },
+    {
+      "nome": "Luiz Camargo",
+      "sobrenome": "Silva",
+      "genero": "masculino",
+      "idade": "22",
+      "dataNascimento": "1999-02-02",
+      "endereco": "Rua Gamões Cunha",
+      "cep": "35620-055",
+      "convenio": "não tenho",
+      "email": "luiz@gmail.com",
+      "diabetes": "sim",
+      "medicamentos": "negativo",
+      "motivoConsulta": "acompanhamento",
+      "alergias": "Não",
+      "dataCadastro": "2023-06-14",
+      "doencaImportante": "covid",
+      "fuma": "sim",
+      "historicoFamiliar": "não",
+      "observacoes": null,
+      "cpf": "222.333.555-00",
+      "id": 5,
+      "Exame": [
+        {
+          "exame": "Exame de Urina",
+          "data": "2023-06-14",
+          "status": "ativo"
+        }
+      ]
     }
   ]
 }

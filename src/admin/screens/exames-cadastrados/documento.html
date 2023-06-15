@@ -9,29 +9,34 @@
     <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/template.css">
+    <link rel="stylesheet" href="../../assets/css/pacientes/documento.css">
     <title>Documento preview</title>
 </head>
 <body>
-
-<header class="cabecalho">
-        <div class="cabecalho__logo"><img src="assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia.png" alt="" height="80px"></div>
-        <div >
-            <form class="cabecalho__pesquisar">
-                <input type="text" name="pesquisa" placeholder="Digite aqui sua pesquisa">
-              </form>
+    <header class="cabecalho"> 
+        <div class="cabecalho__logo"> 
+          <a href="../Pagina%20inicial/index.html">
+            <img src="../../assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image%20-%20co%CC%81pia.png" alt="logo" height="80">
+          </a>
         </div>
+        <form class="cabecalho__pesquisar">
+            <input type="text" name="pesquisa" placeholder="Digite aqui sua pesquisa">
+        </form>
         <ul class="cabecalho__list">
-            <li class="cabecalho__item data" ></li>
+            <li class="cabecalho__item data"></li>
             <li class="cabecalho__item">
+             <div class="container-profile">
                 <div class="image__profile">
-                    <img src="assets/imgs/user.png" alt="" height="35px">
+                    <img src="../../assets/imgs/user.png" alt="" height="35px">
                 </div>
+                
+             </div>
+             </div>        
             </li>
-            <li class="cabecalho__item">SAIR</li>
+            <a href="../../../../index.html">SAIR</a>
         </ul>
-</header>
-
+    </header>
 <main>
     <div id="pdf-preview">
         <div id="pacientes-container"></div>
@@ -39,14 +44,15 @@
     </div>
 </main>
 <footer>
-    <div class="cabecalho__logo"><img src="assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia.png" alt="" height="80px"></div>
-        <div >
+    <div class="cabecalho__logo">
+      <img src="../../assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia.png" alt="" height="80px">
+    </div>
     <ul>
       <li><a href="#" class="link__footer">Contato</a></li>
       <li><a href="#" class="link__footer">Quem somos</a></li>
       <li><a href="#" class="link__footer">PUC MINAS - ADS</a></li>
     </ul>
-</footer>
+  </footer>
     <script type = 'module' src="../../service/documentService.js"></script>
     
 </body>
