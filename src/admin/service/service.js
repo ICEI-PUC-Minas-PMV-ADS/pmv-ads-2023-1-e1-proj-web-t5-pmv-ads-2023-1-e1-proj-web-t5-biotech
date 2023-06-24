@@ -1,4 +1,4 @@
-const webService = 'http://localhost:3000/';
+const webService = 'https://biotechservice.onrender.com/';
 
 export const pacienteService = {
   cadastroPaciente,
