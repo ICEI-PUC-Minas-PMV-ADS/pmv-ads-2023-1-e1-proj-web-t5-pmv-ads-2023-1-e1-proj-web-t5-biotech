@@ -1,0 +1,110 @@
+#cadastro-exame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0b7f9c;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(11, 92, 214, 0.2);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.input__data {
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.input__data:focus {
+    outline: none;
+    border-color: #ff1100;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+span#cpfPaciente {
+    color: #4de62e;
+    padding: 5px;
+}
+
+#exame-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#exame-form .form-group {
+    width: 100%;
+    max-width: 400px;
+}
+
+#exame-form .form-group label {
+    display: block;
+}
+
+#exame-form .form-group input[type="text"],
+#exame-form .form-group input[type="date"],
+#exame-form .form-group select {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#exame-form button[type="submit"],
+#btn-cadastrar-resultados {
+    width: 100%;
+    height: 48px;
+    background-color: #26b626;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#exame-form button[type="submit"]:hover,
+#btn-cadastrar-resultados:hover {
+    background-color: #004084;
+}
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+    #cadastro-exame {
+        padding: 1rem;
+    }
+
+    .input__data {
+        max-width: none;
+    }
+
+    #exame-form .form-group input[type="text"],
+    #exame-form .form-group input[type="date"],
+    #exame-form .form-group select {
+        max-width: none;
+    }
+}

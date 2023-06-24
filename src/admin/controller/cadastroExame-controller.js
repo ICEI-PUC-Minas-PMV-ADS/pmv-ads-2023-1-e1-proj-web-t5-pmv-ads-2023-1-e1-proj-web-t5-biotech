@@ -7,6 +7,7 @@ import { pacienteService } from "../service/service.js";
   const inputPaciente = document.querySelector('#nome-paciente');
   const inputData = document.querySelector('#data');
   const inputExame = document.querySelector('#exame');
+  const pedidosRealizados = document.querySelector('#pedidos-realizados');
 
   // Código para obter a data ao carregar a tela
   const dataAtual = new Date();
@@ -19,6 +20,17 @@ import { pacienteService } from "../service/service.js";
   const nomeCompleto = `${dados.nome} ${dados.sobrenome}`;
   inputPaciente.value = nomeCompleto;
   inputData.value = dataFormatada;
+
+const listaPedidos = document.querySelector('#lista-pedidos');
+
+// Preenche a lista de pedidos existentes
+if (dados.Exame && dados.Exame.length > 0) {
+  dados.Exame.forEach(pedido => {
+    const li = document.createElement('li');
+    li.innerHTML = `${pedido.exame} - ${pedido.data}<br>`;
+    listaPedidos.appendChild(li);
+  });
+}
 
   const formulario = document.querySelector('#exame-form');
 
@@ -59,4 +71,3 @@ import { pacienteService } from "../service/service.js";
     }
   });
 })();
-

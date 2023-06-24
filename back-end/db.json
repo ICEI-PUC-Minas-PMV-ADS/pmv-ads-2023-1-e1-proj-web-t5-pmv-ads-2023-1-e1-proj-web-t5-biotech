@@ -49,7 +49,26 @@
     },
     {
       "id": 2,
-      "pacienteId": 2
+      "pacienteId": 2,
+      "exame": "Exames de Sangue",
+      "hemoglobina": "11",
+      "tsh": "111",
+      "hematocritos": "1",
+      "t4total": "222",
+      "leucocitos": "444",
+      "t4": "545",
+      "plaquetas": "6546565656",
+      "alt": "54",
+      "reticulocitos": "6565656",
+      "ast": "22",
+      "colesteroltotal": "6565656",
+      "tgp": "22",
+      "hdlcolesterol": "22",
+      "tgo": "222",
+      "ldlcolesterol": "22",
+      "triglicerideos": "22",
+      "glicemiajejum": "22",
+      "glicemiaposprandial": "2"
     },
     {
       "id": 3,
@@ -57,7 +76,53 @@
     },
     {
       "id": 4,
-      "pacienteId": 4
+      "pacienteId": 4,
+      "exame": "Exames de Sangue",
+      "hemoglobina": "115555",
+      "tsh": "sdfsdf",
+      "hematocritos": "fdfsfd",
+      "t4total": "sdfsdf",
+      "leucocitos": "444",
+      "t4": "545",
+      "plaquetas": "1",
+      "alt": "1",
+      "reticulocitos": "11",
+      "ast": "4554",
+      "colesteroltotal": "111",
+      "tgp": "1",
+      "hdlcolesterol": "1",
+      "tgo": "1",
+      "ldlcolesterol": "22",
+      "triglicerideos": "22",
+      "glicemiajejum": "1",
+      "glicemiaposprandial": "2"
+    },
+    {
+      "id": 5,
+      "pacienteId": 5
+    },
+    {
+      "id": 6,
+      "pacienteId": 6,
+      "exame": "Exames de Sangue",
+      "hemoglobina": "11",
+      "tsh": "111",
+      "hematocritos": "1",
+      "t4total": "222",
+      "leucocitos": "444",
+      "t4": "sdf",
+      "plaquetas": "52132",
+      "alt": "sdfsdfs",
+      "reticulocitos": "6565656",
+      "ast": "sdfsdf",
+      "colesteroltotal": "6565656",
+      "tgp": "dfsdf",
+      "hdlcolesterol": "22",
+      "tgo": "sdfsdf",
+      "ldlcolesterol": "22",
+      "triglicerideos": "fsdf",
+      "glicemiajejum": "22",
+      "glicemiaposprandial": "dffsdfs"
     }
   ],
   "pacientes": [
@@ -98,7 +163,8 @@
           "data": "2023-06-10",
           "status": "ativo"
         }
-      ]
+      ],
+      "recoleta": true
     },
     {
       "nome": "Gustavo Alcantara",
@@ -119,7 +185,20 @@
       "fuma": "sim",
       "historicoFamiliar": "não",
       "cpf": "321.321.123-23",
-      "id": 2
+      "id": 2,
+      "Exame": [
+        {
+          "exame": "Exames de Sangue",
+          "data": "2023-06-24",
+          "status": "ativo"
+        },
+        {
+          "exame": "Exame de Urina",
+          "data": "2023-06-24",
+          "status": "ativo"
+        }
+      ],
+      "recoleta": true
     },
     {
       "nome": "Lucio Alves",
@@ -140,7 +219,15 @@
       "fuma": "sim",
       "historicoFamiliar": "não",
       "cpf": "321.123.235-55",
-      "id": 3
+      "id": 3,
+      "Exame": [
+        {
+          "exame": "Exame de Urina",
+          "data": "2023-06-12",
+          "status": "ativo"
+        }
+      ],
+      "recoleta": false
     },
     {
       "nome": "Maria Alves",
@@ -161,7 +248,83 @@
       "fuma": "sim",
       "historicoFamiliar": "não",
       "cpf": "111.111.222-55",
-      "id": 4
+      "id": 4,
+      "Exame": [
+        {
+          "exame": "Exames de Sangue",
+          "data": "2023-06-24",
+          "status": "ativo"
+        },
+        {
+          "exame": "Exame de Fezes",
+          "data": "2023-06-24",
+          "status": "ativo"
+        }
+      ]
+    },
+    {
+      "nome": "Luiz Camargo",
+      "sobrenome": "Silva",
+      "genero": "masculino",
+      "idade": "22",
+      "dataNascimento": "1999-02-02",
+      "endereco": "Rua Gamões Cunha",
+      "cep": "35620-055",
+      "convenio": "não tenho",
+      "email": "luiz@gmail.com",
+      "diabetes": "sim",
+      "medicamentos": "negativo",
+      "motivoConsulta": "acompanhamento",
+      "alergias": "Não",
+      "dataCadastro": "2023-06-14",
+      "doencaImportante": "covid",
+      "fuma": "sim",
+      "historicoFamiliar": "não",
+      "observacoes": null,
+      "cpf": "222.333.555-00",
+      "id": 5,
+      "Exame": [
+        {
+          "exame": "Exame de Urina",
+          "data": "2023-06-14",
+          "status": "ativo"
+        },
+        {
+          "exame": "Exames de Sangue",
+          "data": "2023-06-24",
+          "status": "ativo"
+        }
+      ]
+    },
+    {
+      "nome": "lucio",
+      "sobrenome": "costa",
+      "genero": "masculino",
+      "idade": "38",
+      "dataNascimento": "1992-02-02",
+      "endereco": "Rua Gamões Cunha",
+      "cep": "35620-055",
+      "convenio": "não tenho",
+      "email": "lucio@gmail",
+      "diabetes": "não",
+      "medicamentos": "negativo",
+      "motivoConsulta": "rotina",
+      "alergias": "todas",
+      "dataCadastro": "2023-06-24",
+      "doencaImportante": "não",
+      "fuma": "sim",
+      "historicoFamiliar": "todas",
+      "observacoes": null,
+      "cpf": "151.151.171-00",
+      "id": 6,
+      "Exame": [
+        {
+          "exame": "Exames de Sangue",
+          "data": "2023-06-24",
+          "status": "ativo"
+        }
+      ],
+      "recoleta": false
     }
   ]
 }

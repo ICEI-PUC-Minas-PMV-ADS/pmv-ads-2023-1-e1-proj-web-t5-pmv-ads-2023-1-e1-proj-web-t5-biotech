@@ -2,31 +2,33 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.16/jspdf.plugin.autotable.min.js"></script>
-    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/template.css">
+    <link rel="stylesheet" href="../../assets/css/cadastros/pedido-exame.css">
 </head>
 <body>
-<header class="cabecalho">
-    <div class="cabecalho__logo"><img src="assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia.png" alt="" height="80px"></div>
-    <div >
+    <header class="cabecalho"> 
+        <div class="cabecalho__logo"> 
+          <a href="../Pagina%20inicial/index.html">
+            <img src="../../assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image%20-%20co%CC%81pia.png" alt="logo" height="80">
+          </a>
+        </div>
         <form class="cabecalho__pesquisar">
             <input type="text" name="pesquisa" placeholder="Digite aqui sua pesquisa">
-          </form>
-    </div>
-    <ul class="cabecalho__list">
-        <li class="cabecalho__item data" ></li>
-        <li class="cabecalho__item">
-            <div class="image__profile">
-                <img src="assets/imgs/user.png" alt="" height="35px">
-            </div>
-        </li>
-        <li class="cabecalho__item">SAIR</li>
-    </ul>
-</header>
+        </form>
+        <ul class="cabecalho__list">
+            <li class="cabecalho__item data"></li>
+            <li class="cabecalho__item">
+             <div class="container-profile">
+                <div class="image__profile">
+                    <img src="../../assets/imgs/user.png" alt="" height="35px">
+                </div>
+                
+             </div>
+             </div>        
+            </li>
+            <a href="../../../../index.html">SAIR</a>
+        </ul>
+    </header>
 <main>
     <div id="cadastro-exame">
         <h1>Pedido de Exame</h1>
@@ -48,6 +50,10 @@
                     <option value="Exames de Sangue">Exames de Sangue</option>
                 </select>
             </div>
+                <div id="pedidos-realizados">
+                <h2>Pedidos realizados para este paciente:</h2>
+                <ul id="lista-pedidos"></ul>
+            </div>
             <button type="submit">Enviar</button>
             <!-- Adicione o campo de confirmação no seu HTML -->
             <div id="confirmacao-exame-existente" style="display: none;">
@@ -59,14 +65,15 @@
     </div>
 </main>
 <footer>
-    <div class="cabecalho__logo"><img src="./assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia.png" alt="" height="80px"></div>
+    <div class="cabecalho__logo">
+      <img src="../../assets/imgs/54d13027-2c33-4073-b04a-22f8c13ea47b-image - cópia.png" alt="" height="80px">
+    </div>
     <ul>
       <li><a href="#" class="link__footer">Contato</a></li>
       <li><a href="#" class="link__footer">Quem somos</a></li>
       <li><a href="#" class="link__footer">PUC MINAS - ADS</a></li>
     </ul>
-
-</footer>
+  </footer>
     <script type="module" src="../../controller/cadastroExame-controller.js"></script>
     <script src="script/js.js"></script>
 </body>

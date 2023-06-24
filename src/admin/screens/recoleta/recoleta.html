@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Visualizar Paciente</title>
+</head>
+<body>
+  <h1>Visualizar Paciente</h1>
+
+  <div>
+    <strong>Nome do Paciente:</strong>
+    <span id="paciente-nome"></span>
+  </div>
+
+  <div>
+    <label for="exames-dropdown">Exames:</label>
+    <select id="exames-dropdown">
+      <option disabled selected>Carregando exames...</option>
+    </select>
+  </div>
+
+  <button id="solicitar-recoleta-btn">Solicitar Recoleção</button>
+
+  
+  <script type = "module" src="../../controller/pedidoRecoleta-controller.js"></script>
+</body>
+</html>
