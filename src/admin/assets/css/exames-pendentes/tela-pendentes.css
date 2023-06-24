@@ -30,6 +30,11 @@ span#cpfPaciente {
     
     padding: 5px; 
 }
+#nomePaciente {
+    color: #030303;
+    
+    padding: 5px; 
+}
 .button__data {
     width: 100%;
     height: 48px;

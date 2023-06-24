@@ -58,4 +58,16 @@
     flex-direction: column;
     
  }
- 
+ .aba-ativa {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.aba {
+  background-color: #e0e0e0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.recoleta-solicitada {
+  font-weight: bolder;
+}

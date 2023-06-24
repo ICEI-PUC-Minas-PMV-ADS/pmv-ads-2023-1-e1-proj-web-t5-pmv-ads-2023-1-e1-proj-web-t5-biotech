@@ -4,12 +4,19 @@ function criarPacientePreview(paciente) {
   const pacienteDiv = criarElemento('div', 'paciente-preview', '');
 
   const nomeCpfDiv = criarElemento('div', 'nome-cpf', '');
-  nomeCpfDiv.innerHTML = `<strong>${capitalizeFirstLetter(paciente.nome)} ${capitalizeFirstLetter(paciente.sobrenome)}</strong> - CPF: ${paciente.cpf} - Data de Nascimento: ${paciente.dataNascimento}<br>Exames registrados: `;
+  nomeCpfDiv.innerHTML = `<strong>${capitalizeFirstLetter(paciente.nome)} ${capitalizeFirstLetter(paciente.sobrenome)}</strong> - CPF: ${paciente.cpf} - Data de Nascimento: ${paciente.dataNascimento}<br>Exames Ativos: `;
 
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
+  // Adicionar a marcação da solicitação de recoleta
+  if (paciente.recoleta) {
+    nomeCpfDiv.appendChild(document.createElement('br')); // Inserir uma quebra de linha
+    const recoletaSolicitadaSpan = criarElemento('span', 'recoleta-solicitada', 'Recoleta Solicitada <br>');
+    recoletaSolicitadaSpan.style.color = 'red'; // Alterar a cor do texto para vermelho
+    nomeCpfDiv.appendChild(recoletaSolicitadaSpan);
+  }
   pacienteDiv.appendChild(nomeCpfDiv);
 
   // Listar os exames para o preview
@@ -26,11 +33,11 @@ function criarPacientePreview(paciente) {
 
   // Botões
   const deleteBtn = criarElemento('button', 'btn-detalhes', 'Excluir');
-deleteBtn.addEventListener('click', () => {
-  deletarPaciente(paciente.id);
-});
+  deleteBtn.addEventListener('click', () => {
+    deletarPaciente(paciente.id);
+  });
 
-pacienteDiv.appendChild(deleteBtn);
+  pacienteDiv.appendChild(deleteBtn);
 
   const editarPacienteBtn = criarElemento('button', 'btn-detalhes', 'Editar Paciente');
   editarPacienteBtn.addEventListener('click', () => exibirEdicaoPaciente(paciente.id));
@@ -44,8 +51,19 @@ pacienteDiv.appendChild(deleteBtn);
   cadastrarExamesBtn.addEventListener('click', () => exibirCadastroPedidoExames(paciente.id));
   pacienteDiv.appendChild(cadastrarExamesBtn);
 
+  if (paciente.recoleta) {
+    const finalizarRecoletaBtn = criarElemento('button', 'btn-detalhes', 'Finalizar Recoleta');
+    finalizarRecoletaBtn.addEventListener('click', () => finalizarRecoleta(paciente.id, pacienteDiv, nomeCpfDiv));
+    pacienteDiv.appendChild(finalizarRecoletaBtn);
+  } else {
+    const solicitarRecoletaBtn = criarElemento('button', 'btn-detalhes', 'Solicitar Recoleta');
+    solicitarRecoletaBtn.addEventListener('click', () => solicitarRecoleta(paciente.id, pacienteDiv, nomeCpfDiv));
+    pacienteDiv.appendChild(solicitarRecoletaBtn);
+  }
+
   return pacienteDiv;
 }
+
 function deletarPaciente(pacienteId) {
   // Exibir uma mensagem de confirmação ao usuário
   if (!confirm('Tem certeza de que deseja excluir este paciente?')) {
@@ -76,6 +94,59 @@ function exibirDetalhesPaciente(pacienteId) {
   window.location.href = `./documento.html?id=${pacienteId}`;
 }
 
+function solicitarRecoleta(pacienteId, pacienteDiv, nomeCpfDiv) {
+  pacienteService.solicitarRecoleta(pacienteId)
+    .then(response => {
+      console.log('Recoleta solicitada com sucesso.');
+
+      // Adicionar a marcação no nomeCpfDiv
+      const recoletaSolicitadaSpan = criarElemento('span', 'recoleta-solicitada ', 'Recoleta Solicitada <br>');
+      nomeCpfDiv.appendChild(document.createElement('br')); // Inserir uma quebra de linha antes
+      nomeCpfDiv.appendChild(recoletaSolicitadaSpan);
+
+      // Alterar a cor do texto para vermelho
+      nomeCpfDiv.style.color = 'red';
+
+      // Substituir o botão "Solicitar Recoleta" pelo botão "Finalizar Recoleta"
+      const solicitarRecoletaBtn = pacienteDiv.querySelector('.btn-detalhes');
+      pacienteDiv.removeChild(solicitarRecoletaBtn);
+
+      const finalizarRecoletaBtn = criarElemento('button', 'btn-detalhes', 'Finalizar Recoleta');
+      finalizarRecoletaBtn.addEventListener('click', () => finalizarRecoleta(pacienteId, pacienteDiv, nomeCpfDiv));
+      pacienteDiv.appendChild(finalizarRecoletaBtn);
+    })
+    .catch(error => {
+      console.error('Erro ao solicitar recoleta:', error);
+      // Tratar o erro adequadamente, como exibir uma mensagem de erro para o usuário.
+    });
+}
+
+function finalizarRecoleta(pacienteId, pacienteDiv, nomeCpfDiv) {
+  pacienteService.finalizarRecoleta(pacienteId)
+    .then(response => {
+      console.log('Recoleta finalizada com sucesso.');
+
+      // Remover a marcação de recoleta solicitada
+      const recoletaSolicitadaSpan = pacienteDiv.querySelector('.recoleta-solicitada');
+      nomeCpfDiv.removeChild(recoletaSolicitadaSpan);
+
+      // Restaurar a cor do texto para a cor padrão
+      nomeCpfDiv.style.color = '';
+      
+      // Substituir o botão "Finalizar Recoleta" pelo botão "Solicitar Recoleta"
+      const finalizarRecoletaBtn = pacienteDiv.querySelector('.btn-detalhes');
+      pacienteDiv.removeChild(finalizarRecoletaBtn);
+
+      const solicitarRecoletaBtn = criarElemento('button', 'btn-detalhes', 'Solicitar Recoleta');
+      solicitarRecoletaBtn.addEventListener('click', () => solicitarRecoleta(pacienteId, pacienteDiv, nomeCpfDiv));
+      pacienteDiv.appendChild(solicitarRecoletaBtn);
+    })
+    .catch(error => {
+      console.error('Erro ao finalizar recoleta:', error);
+      // Tratar o erro adequadamente, como exibir uma mensagem de erro para o usuário.
+    });
+}
+
 function criarElemento(tag, classes, conteudo) {
   const elemento = document.createElement(tag);
   elemento.className = classes;
@@ -104,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         console.log('O elemento pacientes-container não foi encontrado.');
       }
-      
+
       // Renderizar os pacientes para o recurso de pesquisa
       renderPatients(pacientes);
     })
@@ -129,56 +200,31 @@ document.addEventListener('DOMContentLoaded', function() {
     // Carregar os pacientes usando o service
     pacienteService.carregarPacientes()
       .then(function(pacientes) {
-        const filteredPatients = pacientes.filter(function(paciente) {
-          // Verificar se o termo de pesquisa corresponde ao nome ou ao CPF do paciente
-          const nomeMatches = paciente.nome.toLowerCase().includes(searchTerm);
-          const cpfMatches = paciente.cpf && paciente.cpf.replace(/\D/g, '').includes(searchTerm);
-
-          // Verificar se o termo de pesquisa corresponde ao nome de algum exame do paciente
-          const exameMatches = paciente.Exame && paciente.Exame.some(function(exame) {
-            return exame.exame.toLowerCase().includes(searchTerm);
-          });
-
-          return nomeMatches || cpfMatches || exameMatches;
+        const resultados = pacientes.filter(function(paciente) {
+          const nomeCompleto = paciente.nome + ' ' + paciente.sobrenome;
+          return nomeCompleto.toLowerCase().includes(searchTerm);
         });
 
-        renderPatients(filteredPatients);
+        pacientesContainer.innerHTML = '';
+
+        resultados.forEach(function(paciente) {
+          const pacientePreviewDiv = criarPacientePreview(paciente);
+          pacientesContainer.appendChild(pacientePreviewDiv);
+        });
       })
       .catch(function(error) {
-        console.log('Erro ao carregar os dados:', error);
+        console.log('Erro ao carregar os dados: ', error);
       });
   });
 
   function renderPatients(pacientes) {
-    if (pacientes.length === 0) {
-      pacientesContainer.innerHTML = 'Nenhum dado correspondente encontrado.';
-      return;
+    if (pacientesContainer) {
+      pacientes.forEach(function(paciente) {
+        const pacientePreviewDiv = criarPacientePreview(paciente);
+        pacientesContainer.appendChild(pacientePreviewDiv);
+      });
+    } else {
+      console.log('O elemento pacientes-container não foi encontrado.');
     }
-
-    pacientesContainer.innerHTML = '';
-
-    pacientes.forEach(function(paciente) {
-      const pacientePreviewDiv = criarPacientePreview(paciente);
-      pacientesContainer.appendChild(pacientePreviewDiv);
-    });
-  }
-  function deletarPaciente(pacienteId) {
-  // Exibir uma mensagem de confirmação ao usuário
-  if (!confirm('Tem certeza de que deseja excluir este paciente?')) {
-    return; // Abortar a exclusão caso o usuário cancele
-  }
-
-  pacienteService.deletarPaciente(pacienteId)
-    .then(() => {
-      console.log('Paciente excluído com sucesso.');
-      // Atualizar a página ou realizar outras ações necessárias após a exclusão
-    })
-    .catch(error => {
-      console.error('Erro ao excluir o paciente:', error);
-    });
-}
-
-  function exibirDetalhesPaciente(pacienteId) {
-    window.location.href = `documento.html?id=${pacienteId}`;
   }
 });

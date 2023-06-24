@@ -14,6 +14,8 @@ export const pacienteService = {
   deletarPaciente,
   deletarExame,
   carregarExames,
+  solicitarRecoleta,
+  finalizarRecoleta
 };
 
 async function cadastroPaciente(paciente) {
@@ -271,9 +273,89 @@ async function deletarExame(pacienteId, exameId) {
   }
 }
 
-function carregarExames(id) {
+function carregarExameId(id) {
   return fetch(`${webService}exames/${id}`)
     .then(resposta => {
       return resposta.json();
     });
+}
+function carregarExames() {
+  return fetch(`${webService}exames/`)
+    .then(resposta => {
+      return resposta.json();
+    });
+}
+
+async function solicitarRecoleta(pacienteId) {
+  try {
+    const response = await fetch(`${webService}pacientes/${pacienteId}`);
+    if (response.ok) {
+      const paciente = await response.json();
+
+      // Verifica se o campo de recoleta já está definido
+      if (paciente.recoleta) {
+        throw new Error('Recoleta já solicitada para este paciente');
+      }
+
+      // Define o campo de recoleta como true
+      paciente.recoleta = true;
+
+      // Faz a requisição PATCH para atualizar o paciente com a recoleta
+      const atualizacaoResponse = await fetch(`${webService}pacientes/${pacienteId}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify(paciente),
+      });
+
+      if (atualizacaoResponse.ok) {
+        console.log('Recoleta solicitada com sucesso');
+      } else {
+        throw new Error('Erro ao solicitar a recoleta');
+      }
+    } else {
+      throw new Error('Erro ao carregar os dados do paciente');
+    }
+  } catch (error) {
+    console.log('Erro ao solicitar a recoleta', error);
+    throw error;
+  }
+}
+
+async function finalizarRecoleta(pacienteId) {
+  try {
+    const response = await fetch(`${webService}pacientes/${pacienteId}`);
+    if (response.ok) {
+      const paciente = await response.json();
+
+      // Verifica se o campo de recoleta já está definido como true
+      if (!paciente.recoleta) {
+        throw new Error('Recoleta não solicitada para este paciente');
+      }
+
+      // Define o campo de recoleta como false
+      paciente.recoleta = false;
+
+      // Faz a requisição PATCH para atualizar o paciente sem a recoleta
+      const atualizacaoResponse = await fetch(`${webService}pacientes/${pacienteId}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify(paciente),
+      });
+
+      if (atualizacaoResponse.ok) {
+        console.log('Recoleta finalizada com sucesso');
+      } else {
+        throw new Error('Erro ao finalizar a recoleta');
+      }
+    } else {
+      throw new Error('Erro ao carregar os dados do paciente');
+    }
+  } catch (error) {
+    console.log('Erro ao finalizar a recoleta', error);
+    throw error;
+  }
 }

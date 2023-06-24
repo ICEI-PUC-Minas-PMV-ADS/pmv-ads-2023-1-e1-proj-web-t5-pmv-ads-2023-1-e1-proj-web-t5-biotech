@@ -68,7 +68,8 @@ span#cpfPaciente {
     transition: border-color 0.3s ease-in-out;
 }
 
-#exame-form button[type="submit"] {
+#exame-form button[type="submit"],
+#btn-cadastrar-resultados {
     width: 100%;
     height: 48px;
     background-color: #26b626;
@@ -86,6 +87,24 @@ span#cpfPaciente {
     transition: background-color 0.3s ease-in-out;
 }
 
-#exame-form button[type="submit"]:hover {
+#exame-form button[type="submit"]:hover,
+#btn-cadastrar-resultados:hover {
     background-color: #004084;
+}
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+    #cadastro-exame {
+        padding: 1rem;
+    }
+
+    .input__data {
+        max-width: none;
+    }
+
+    #exame-form .form-group input[type="text"],
+    #exame-form .form-group input[type="date"],
+    #exame-form .form-group select {
+        max-width: none;
+    }
 }
