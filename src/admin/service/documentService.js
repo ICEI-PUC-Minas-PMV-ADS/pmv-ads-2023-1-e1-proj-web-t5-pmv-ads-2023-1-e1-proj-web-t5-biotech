@@ -1,5 +1,5 @@
 window.jsPDF = window.jspdf.jsPDF;
-const webService = 'http://localhost:3000/';
+const webService = 'https://biotechservice.onrender.com/';
 
 document.addEventListener('DOMContentLoaded', function() {
   // ID do paciente selecionado obtido a partir da URL
