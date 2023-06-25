@@ -4,7 +4,7 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-## Plano de TEste 1 - Criar Conta
+## Plano de Teste 1 - Criar Conta
 Os campos do cadastro e os dados pessoais foram preenchidos corretamente. Após preencher todos os campos, o cadastro deve ser concluído. Todos os testes realizados nesta etapa foram bem-sucedidos.
 
 
