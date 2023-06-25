@@ -18,7 +18,7 @@ Após o cadastro, o usuário é redirecionado para a tela de login, onde é veri
 <img width="1440" alt="Captura de Tela 2023-06-25 às 20 26 04" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/116657748/a33dd7fc-fe51-49cd-878d-23a15088ae53">
 
 ## Plano de Teste 3 - Tela Inicial 
-Após o login bem-sucedido, o usuário é direcionado para a tela inicial do sistema. Nessa página, são exibidas as informações personalizadas e relevantes para o usuário, como notificações, mensagens recentes, atualizações importantes e outros recursos disponíveis.
+Após o login bem-sucedido, o usuário é direcionado para a tela inicial do sistema. Nessa página, são exibidas as opções que o sistema possuem.
 
 Todos os testes realizados nesta etapa foram concluídos com sucesso, garantindo que a tela inicial do sistema esteja funcionando perfeitamente e atendendo às necessidades do usuário.
 <img width="1440" alt="Captura de Tela 2023-06-25 às 20 28 50" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech/assets/116657748/84a49f0c-598e-4d4d-be91-b278ad52488c">
