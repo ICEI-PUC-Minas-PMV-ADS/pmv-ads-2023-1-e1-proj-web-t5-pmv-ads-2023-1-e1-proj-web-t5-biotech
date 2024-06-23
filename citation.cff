@@ -1,0 +1,22 @@
+message: Please cite this software using these metadata.
+title: Biotech
+authors:
+  - family-names: de Oliveira Ferreira
+    given-names: Ana Clara
+  - family-names: de Araujo Feliciano
+    given-names: Felipe
+  - family-names: de Almeida da Silva Santos
+    given-names: Leander
+  - family-names: Isidoro de Oliveira
+    given-names: Paulo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone 
+keywords:
+  - Gestão
+  - Confiabilidade dos resultados 
+  - Protocolo de verificação
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t5-pmv-ads-2023-1-e1-proj-web-t5-biotech
+version: 1.0.0
+date-released: 2023-06-25
